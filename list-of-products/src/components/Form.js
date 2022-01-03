@@ -13,7 +13,7 @@ export const Form = ({ addedTask }) => {
   return (
     <div className={"firstInput"}>
       <input
-        placeholder="Создать задачу..." type="text"
+        placeholder="The product's name..." type="text"
         onChange={(e) => getAddedText(e.target.value)}
       ></input>
       <button disabled={!addTaskInput} onClick={() => addedTask(addTaskInput)}>
